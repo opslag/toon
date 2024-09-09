@@ -19,7 +19,7 @@ Supported devices:
   - Engie Electrabel Boxx
   - Viesgo Toon
 
-# Installation
+# Installation  🚀
 
 ## Manual
 
