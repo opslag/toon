@@ -65,6 +65,12 @@ class ToonLocalOAuth2Implementation(config_entry_oauth2_flow.LocalOAuth2Implemen
         self._name = name
         self.tenant_id = tenant_id
         self.issuer = issuer
+        self.long_lived_token = None
+        
+        # Check if client_secret is actually a long-lived access token
+        if len(client_secret) > 32:  # Assuming access tokens are longer than typical client secrets
+            self.long_lived_token = client_secret
+            client_secret = None  # Set to None as we don't need it for token-based auth
 
         super().__init__(
             hass=hass,
@@ -92,6 +98,13 @@ class ToonLocalOAuth2Implementation(config_entry_oauth2_flow.LocalOAuth2Implemen
 
     async def async_resolve_external_data(self, external_data: Any) -> dict:
         """Initialize local Toon auth implementation."""
+        if self.long_lived_token:
+            return {
+                "access_token": self.long_lived_token,
+                "token_type": "bearer",
+                "expires_in": 315360000,  # 10 years in seconds
+            }
+            
         data = {
             "grant_type": "authorization_code",
             "code": external_data["code"],
@@ -106,6 +119,13 @@ class ToonLocalOAuth2Implementation(config_entry_oauth2_flow.LocalOAuth2Implemen
 
     async def _async_refresh_token(self, token: dict) -> dict:
         """Refresh tokens."""
+        if self.long_lived_token:
+            return {
+                "access_token": self.long_lived_token,
+                "token_type": "bearer",
+                "expires_in": 315360000,  # 10 years in seconds
+            }
+        
         data = {
             "grant_type": "refresh_token",
             "client_id": self.client_id,
