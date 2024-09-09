@@ -7,8 +7,7 @@
   [![Version](https://img.shields.io/github/v/tag/opslag/toon?label=version&sort=semver&color=066da5)](https://github.com/opslag/toon)
 
 </div>
-
-# Toon Integration
+<hr />
 
 This Home Assistant integration adds a climate device for your Toon thermostat, some switches allowing you to control the program and holiday mode of the thermostats as well.
 
