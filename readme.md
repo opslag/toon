@@ -1,6 +1,12 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/opslag/toon/master/.github/logo.png" title="Logo" style="max-width:100%;" width="256" />
 </div>
+<div align="center">
+  
+  [![Build](https://github.com/opslag/toon/actions/workflows/build.yml/badge.svg)](https://github.com/opslag/toon)
+  [![Version](https://img.shields.io/github/v/tag/opslag/toon?label=version&sort=semver&color=066da5)](https://github.com/opslag/toon)
+
+</div>
 
 # Toon Integration for Home Assistant
 
