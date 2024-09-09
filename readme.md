@@ -8,13 +8,11 @@
 
 </div>
 
-# Toon Integration for Home Assistant
+# Toon Integration
 
-This integration adds a climate device for your Toon thermostat, some switches allowing you to control the program and holiday mode of the thermostats as well.
+This Home Assistant integration adds a climate device for your Toon thermostat, some switches allowing you to control the program and holiday mode of the thermostats as well.
 
 Sensors for energy, power and gas consumption, sensors for solar production and several binary sensors for things like boiler burner on/off, hot tap water and boiler health status.
-
-For the Toon integration to work, you’ll need an active Toon subscription and a Toon API developer account.
 
 Supported devices:
 
