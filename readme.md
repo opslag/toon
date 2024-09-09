@@ -33,3 +33,6 @@ Supported devices:
    [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=opslag&repository=toon&category=integration)
 2. Restart Home Assistant
 3. Setup integration via the integration page.
+
+# Stars 🌟
+[![Stars](https://starchart.cc/opslag/toon.svg?variant=adaptive)](https://starchart.cc/opslag/toon)
