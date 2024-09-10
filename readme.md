@@ -15,7 +15,7 @@ To generate such a token, use the following link filled in with your `client_id`
 
 `https://api.toon.eu/toonapi-accesstoken?tenant_id=eneco&client_id=<consumer_key>`
 
-Special thanks to @FrankHoogmans for this patch.
+Special thanks to [@FrankHoogmans](https://github.com/FrankHoogmans) for this patch.
 
 # Installation  🚀
 
