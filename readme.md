@@ -15,7 +15,7 @@ To generate such a token, use the following link filled in with your `client_id`
 
 `https://api.toon.eu/toonapi-accesstoken?tenant_id=eneco&client_id=<consumer_key>`
 
-Special thanks to [@FrankHoogmans](https://github.com/FrankHoogmans) for this patch.
+and put the retrieved value in your `configuration.yaml` as the `client_secret`.
 
 # Installation  🚀
 
@@ -31,6 +31,10 @@ Special thanks to [@FrankHoogmans](https://github.com/FrankHoogmans) for this pa
    [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=opslag&repository=toon&category=integration)
 2. Restart Home Assistant
 3. Setup integration via the integration page.
+
+ # Acknowledgements 🙏
+ 
+Special thanks to [@FrankHoogmans](https://github.com/FrankHoogmans) for this patch.
 
 # Stars 🌟
 [![Stars](https://starchart.cc/opslag/toon.svg?variant=adaptive)](https://starchart.cc/opslag/toon)
