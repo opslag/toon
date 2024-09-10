@@ -9,15 +9,13 @@
 </div>
 <hr />
 
-This Home Assistant integration adds a climate device for your Toon thermostat, some switches allowing you to control the program and holiday mode of the thermostats as well.
+This Toon integration supports long-lived access tokens in the `client_secret` field, in order to fix issue [115290](https://github.com/home-assistant/core/issues/115290).
 
-Sensors for energy, power and gas consumption, sensors for solar production and several binary sensors for things like boiler burner on/off, hot tap water and boiler health status.
+To generate such a token, use the following link filled in with your `client_id` in a webbrowser:
 
-Supported devices:
+`https://api.toon.eu/toonapi-accesstoken?tenant_id=eneco&client_id=<consumer_key>`
 
-  - Eneco Toon
-  - Engie Electrabel Boxx
-  - Viesgo Toon
+Special thanks to @FrankHoogmans for this patch.
 
 # Installation  🚀
 
