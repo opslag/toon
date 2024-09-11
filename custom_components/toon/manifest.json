@@ -2,7 +2,7 @@
   "domain": "toon",
   "name": "Toon",
   "after_dependencies": ["cloud"],
-  "codeowners": ["@kroese"],
+  "codeowners": ["@kroese", "@FrankHoogmans"],
   "config_flow": true,
   "dependencies": ["auth"],
   "dhcp": [
@@ -16,5 +16,5 @@
   "issue_tracker": "https://github.com/opslag/toon/issues",
   "loggers": ["toonapi"],
   "requirements": ["toonapi==0.3.0"],
-  "version": "0.10"
+  "version": "0.12"
 }
