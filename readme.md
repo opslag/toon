@@ -32,7 +32,7 @@ and put the retrieved value in your `configuration.yaml` as the `client_secret`.
 2. Restart Home Assistant
 3. Setup integration via the integration page.
 
- # Acknowledgements 🙏
+# Acknowledgements 🙏
  
 Special thanks to [@FrankHoogmans](https://github.com/FrankHoogmans) for this patch.
 
