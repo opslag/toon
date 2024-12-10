@@ -9,7 +9,7 @@
 </div>
 <hr />
 
-This Toon integration supports long-lived access tokens in the `client_secret` field, in order to fix issue [115290](https://github.com/home-assistant/core/issues/115290).
+This fork of the Toon integration supports long-lived access tokens in the `client_secret` field, in order to fix issue [115290](https://github.com/home-assistant/core/issues/115290).
 
 To generate such a token, use the following link filled in with your `client_id` in a webbrowser:
 
